@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  text-align: center; 
+  border-bottom: 2px solid rgb(158, 154, 154);
+  padding-bottom: 10px;
+}
+
+header img {
+  display: block; 
+  margin: 20px auto;
+}
+
+nav{
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex; 
+  justify-content: center;
+  border-top: 2px solid rgb(160, 150, 150);
+  padding-top: 10px;
+}
+
+nav ul li.satu {
+  margin-right: 20px;
+}
+
+nav ul li.satu:last-child {
+  margin-right: 0; 
+}
+
+nav ul li.satu {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px; 
+  border-radius: 5px;
+  background-color: #00bcd4;
+  transition: background-color 0.3s ease; 
+}
+
+nav ul li a:hover {
+  background-color: #008ba3; 
+}
+
+.search-box input[placeholder] {
+  width: 200px;
+  height: 40px;
+  line-height: 25px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 1;
+}
+
+.satu:hover .submenu {
+  display: block;
+}
+
+h2{
+  text-align: center;
+}
+
+.recipe-container {
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.recipe-item {
+  width: 400px; 
+  margin: 10px; 
+  text-align: center; 
+}
+
+.recipe-item img {
+  width: 100%; 
+  height: 500px; 
+  border-radius: 5px; 
+}
+
+.recipe-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.recipe-item1 {
+  width: 300px;
+  padding: 5px;
+}
+
+.recipe-item1 img {
+  width: 50%;
+  height: 200px;
+}
+
+.recipe-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.recipe-item2 {
+  width: 300px;
+  padding: 5px;
+}
+
+.recipe-item2 img {
+  width: 50%;
+  height: 200px;
+}
+
+
+.profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-info {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.profile-info p {
+  font-size: 16px;
+  color: #666;
+}
+
+.profile-image img {
+  max-width: 140px; 
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.gambar-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center; 
+}
+.tautan{
+  max-width: 50px; 
+  height: auto;
+  overflow: hidden;
+}
+
+.plac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-area {
+  width: 300px; 
+  height: 100px; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.feed{
+  justify-content: center;
+    display: block; 
+    margin: 0 auto;
+}
+
+footer{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
